@@ -1,0 +1,18 @@
+.slideshow {
+    overflow: hidden;
+  }
+  
+  .slides-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     /* Adjust font size as needed */
+  }
